@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { AppState } from './../app.state';
-import { Tutorial } from './../models/tutorial.model';
-import * as TutorialActions from './../actions/tutorial.actions';
+import { Tutorial } from '../ducks/tutorial/model';
+import * as TutorialActions from '../ducks/tutorial/actions';
 
 @Component({
   selector: 'app-create',

@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { StoreModule } from '@ngrx/store';
-import { reducer } from './reducers/tutorial.reducer';
+import { reducer } from './ducks/tutorial/reducer';
 import { ReadComponent } from './read/read.component';
 import { CreateComponent } from './create/create.component';
 
