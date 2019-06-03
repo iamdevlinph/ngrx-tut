@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { AppState } from './../app.state';
-import { Tutorial } from '../ducks/tutorial/model';
 import * as TutorialActions from '../ducks/tutorial/actions';
 
 @Component({
